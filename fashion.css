@@ -101,6 +101,7 @@ body {
 
 .photos img {
     max-width: 342px;
+}
 
 .img-and-caption {
     display: flex;
