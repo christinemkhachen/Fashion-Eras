@@ -1,8 +1,23 @@
+* {
+    font-family: cursive;
+    /*BACKGROUND color */
+}
+
+img {
+    size:25vw;
+
+}
+
+h2 {
+    font-size:5vmin
+
+}
+
+
 table, th, td, tr {
 
-    border-collapse: collapse;
 
-    font-family: cursive;
+    border-collapse: collapse;
 
     font-size: large;
 
@@ -14,11 +29,13 @@ table, th, td, tr {
 
     }
 
+
       
 
   h1 {
 
     text-align: center;
+    font-size: 40px;
 
   }
 
@@ -30,7 +47,10 @@ table, th, td, tr {
 
     font-size: 20px;
 
-    font: 1em sans-serif;
+    /* can remove this line */
+    font-family: cursive;
+
+    font-weight: bold;
 
     }
 
@@ -54,7 +74,45 @@ table, th, td, tr {
 
   }
 
- 
+  /* The code below this comment was messing up the layout of our divs, so I commented it out */
+
+  /*div {  
+  width: auto;  
+  text-align: center;  
+  padding: 15px;  
+  border: 3px solid rgb(138, 80, 80);  
+  }  
+  img {  
+  max-width: 100%;  
+  height: auto;  
+  } */ 
+  
+
+body {
+    background: rgb(226, 217, 220);
+}
+
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    border: none;
+}
+
+.photos img {
+    max-width: 342px;
+
+.img-and-caption {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin: 5px;
+}
+
+body h2 {
+    text-align: center;
+}
+
 
  
 
